@@ -4,7 +4,8 @@
   "description": "",
   "main": "queens.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./queens.js",
+    "start": "echo \"sorry buddy, no tests for you :P\""
   },
   "author": "",
   "license": "ISC"

@@ -26,13 +26,17 @@ const queens = (size, row = 0, R = 0, L = 0, pos = (size-1), level = (size-1)) =
   return answer;
 }
 
-//change the value of this variable to check solutions and/or speed for different board sizes
-const board = 10;
+/*to run this function you can modify line 32 to include any value you are interested in (this will be faster) or
+run it through the command line with node ./queens.js [boardSize]*/
 
+const board = process.argv.slice(2);
 const start = new Date().getTime();
 const result = queens(board);
 const end = new Date ().getTime();
 
-console.log(`result: ${result} possible combinations.
+console.log(`======================================
+board size: ${board}x${board}.
+result: ${result} possible combinations.
 time: ${(end - start)} miliseconds.
-board size: ${board}x${board}.`);
+======================================
+`);
