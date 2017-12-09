@@ -1,10 +1,12 @@
 ![codewars badge](https://www.codewars.com/users/vidocco/badges/large)
 
-##N Queens Problem
+## N Queens Problem
 
 The N queens problem is a mathematical/logical/algorithmic problem that involves placing N chess queens on an NxN chessboard so that no quens threaten each other. It is a more complicated version of the eight queens puzzle (since it has to be fully scallable) and a simplified version of the millenium problem [P v NP](http://www.claymath.org/millennium-problems/p-vs-np-problem) (that also assumes M queens are already positioned in the board before starting the algorithm).
 
-The queens problem is incredibly interesting to start getting into algorithm design and logic problem solving in programming, so if you are interested in attempting it: please don't read this repo. 
+![queens-gif](https://github.com/vidocco/bitwise-queens/blob/master/queens.gif)
+
+The queens problem is incredibly interesting to start getting into algorithm design and logic problem solving in programming, so if you are interested in attempting it: **please don't read this repo**. 
 
 
 
